@@ -1,0 +1,112 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+.main{
+    background-color:#5FDAD0;
+    width:100%;
+    height:690px;
+    margin:auto;
+    margin-top: 0px;
+    
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.edgerightgreen{
+    background-color: #5FDA6A;
+    transform: rotate(45deg);
+
+    width:350px;
+    height:350px;
+    z-index: 1;
+    border-radius:20px; 
+    position:relative;
+    top:200px;
+    right: 160px;
+}
+.edgerightorange{
+    background-color:#DAC95F;
+    transform: rotate(45deg);
+
+    width:200px;
+    height:200px;
+    position:absolute;
+    bottom:70px;
+    right:50px;
+    z-index: 1;
+    border-radius:20px;
+}
+.main-login-form{
+    background-image:url("../img/design.png");
+    border-radius:40px;
+    margin:auto;
+    width: 80%; 
+    max-width: 400px; 
+    height:500px;
+    margin-top:50px;
+    text-align: center;
+    z-index: 2;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+   
+    
+}
+.icon{
+    transform: rotate(-45deg);
+    margin:auto;
+    width:50px;
+    height:50px;
+    border-radius:50px;
+    padding:2px;
+    background-image: url("../img/profile-icon-png-910.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#username{
+    
+    width:260px;
+    height:35px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+#pwd{
+    margin-top: 40px;
+    width:260px;
+    height:35px;
+    border-radius: 20px;
+    
+}
+.submit{
+    width:80px;
+    height:35px;
+    background-color:#DAC95F;
+    margin: 5px auto;
+
+    border-radius: 20px;
+    padding: auto;
+    text-align:center;
+    padding-top: 6px;
+    cursor: pointer; 
+    
+
+}
+.submit:hover{
+    background-color:#5FDA6A ;
+}
+.orangeicon{
+    width:70px;
+    height:70px;
+    transform: rotate(45deg);
+    background-color:#DAC95F;
+   
+    position: relative;
+    top: -30px;
+    right:-160px;
+    border-radius:20px;
+    padding:10px;
+    
+}
